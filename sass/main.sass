@@ -1,0 +1,395 @@
+/**
+ * Default styles
+ */
+@import "vars"
+@import "fonts"
+
+html, body
+	width: 100%
+	height: 100%
+h1, h2, h3, h4, h5, h6, ul, p
+	padding: 0
+	margin: 0
+	display: block
+ul
+	list-style: none
+\:focus, \:active
+	outline: 0 !important
+a,
+a:focus,
+a:active,
+a:hover
+	text-decoration: none !important
+
+body
+	font-family: 'Roboto', sans-serif
+	font-weight: 300
+	font-size: 16px
+	color: $default-color
+	//background-color: rgb(68,100,185)
+
+/**
+ * Styles for site
+ */
+.container
+	width: 420px
+	margin: 0 auto
+.lingua
+	height: auto
+.search
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-right: 13px
+  &-flag
+    display: flex
+
+    &__eng
+      margin-left: 17px
+    &__ru
+      margin-left: 15px
+.w3-button
+  background-color: #fff
+.w3-button:hover
+  background-color: #fff
+
+.search-img
+  width: 48px
+  height: 48px
+.page-content
+	margin-top: 70px
+	&__block
+		min-height: 100vh
+	&__link
+		margin-top: 20px
+		text-align: center
+	&__acc
+      color: rgb(63,81,181)
+	&__title
+		padding-top: 100px
+		font-size: 28px
+		line-height: 1.2
+		text-align: center
+	&__btn
+		margin-top: 40px
+		display: flex
+		align-items: center
+		justify-content: center
+.newzadania__procent
+  font-size: 16px
+  color: rgb(255,64,129)
+  margin-left: 190px
+
+.newteoria-ball__itog
+
+.newteoria-block
+	display: block
+	width: 100%
+	height: 58px
+	background-color: #ffffff
+.btn
+	width: 210px
+	height: 50px
+	display: flex
+	align-items: center
+	justify-content: center
+.quiz-ask
+	font-size: 20px
+	font-weight: 400
+
+.quiz-answers
+	margin-top: 20px
+	position: relative
+.left
+	margin-left: 104px
+.backkk
+	width: 116px
+.table-wrapp
+	display: flex
+	justify-content: center
+.table-title
+	font-size: 20px
+	font-weight: 500
+	margin-bottom: 10px
+
+.questt
+	position: absolute
+	left: 100px
+.quest-left
+	margin-left: 190px
+.quest-done
+	margin-left: 115px
+.quiz-answer__wrap
+	position: absolute
+	top: 390px
+	left: 100px
+	&-quest
+		position: absolute
+		top: 500px
+		left: 20px
+.btn-back
+	margin-right: 20px
+.mdl-radio.is-upgraded
+	display: flex
+.mdl-layout__content
+	width: 100%
+.quiz-block
+	text-align: center
+.teoria
+	background-color: lavender
+header
+	position: fixed
+.lesson-block
+	margin-top: 20px
+	width: 100%
+	height: 50px
+	background-color: white
+	display: flex
+
+	align-items: center
+	&:first-child
+		margin-top: 90px
+	&__text
+		color: black
+img
+	max-width: 100%
+.lesson-block__img, .lesson-block-img
+	height: 50px
+	width: 71px
+.lesson-block__text
+	padding-left: 90px
+.profile-img
+	display: inline-block
+	height: 50px
+	width: 50px
+.pers
+	border-radius: 100%
+	height: 50px
+	width: 50px
+.profile-name
+	display: inline-block
+	padding-left: 15px
+	font-weight: 700
+.hr
+	color: #e6e6e6
+	display: block
+	margin-bottom: 0
+	margin-left: -51px
+	margin-top: 15px
+	min-width: calc(100% + 102px)
+.achiv
+	&-block
+		padding-top: 20px
+		display: flex
+		justify-content: space-between
+	&-text
+		color: rgb(63,81,181)
+	&-title
+		font-weight: 700
+	&-images
+		margin-top: 20px
+		display: flex
+		justify-content: space-between
+.buttons-lk
+	margin-top: 30px
+	text-align: center
+.btn-lk__l
+	margin-right: 10px
+.btn-lk__r
+	margin-left: 10px
+.wrapper
+	padding-top: 15px
+	display: flex
+.arrow__back
+	padding-left: 14px
+	color: white
+.text
+	padding-top: 3px
+	padding-left: 33px
+.wok
+	display: flex
+	justify-content: center
+	padding-top: 20px
+table
+	max-width: 100%
+.blue
+	color: rgb(63,81,181)
+.quest
+	text-align: center
+	padding-top: 20px
+	&-title
+		font-weight: 500
+	&-text
+		margin-top: 20px
+		font-size: 20px
+		font-weight: 500
+	&-blocks
+		margin-top: 20px
+		//display: flex
+		//justify-content: space-around
+		//flex-flow: row wrap
+		display: grid
+		grid-template-columns: 1fr 1fr 1fr
+
+	&-block
+		display: flex
+		align-items: center
+		justify-content: center
+		font-weight: 500
+		margin-top: 10px
+		width: 120px
+		height: 40px
+		background-color: #3f51b5
+		color: white
+
+.clicked
+	background-color: #ff4081
+.blocked
+	opacity: 0.5
+.present
+	text-align: center
+	&-text
+		font-weight: 400
+		text-align: left
+	&-ex
+		margin-top: 20px
+		text-align: left
+	&-table
+		margin-top: 20px
+.ball
+  margin-top: 20px
+  font-size: 20px
+  font-weight: 500
+.rega-title
+	padding-top: 20px
+	font-size: 20px
+	font-weight: 400
+.rega-form
+	margin-top: 15px
+.rega-btn
+	margin-top: 17px
+.auto
+	text-align: center
+.end-title
+	padding-top: 80px
+	text-align: center
+	font-weight: 500
+.end-text
+	text-align: center
+	padding-top: 20px
+.quiz
+	&-label__span
+		font-size: 18px
+	&-schedule
+		margin-bottom: 24px
+		&__li
+			display: inline-block
+			margin-right: 3px
+			width: 40px
+			height: 4px
+			background-color: #4867ff
+			&-active
+				background-color: #ff487c
+.button-sogl
+	position: absolute
+	top: 500px
+	right: 30px
+.options
+	text-align: center
+	&-avatar
+		padding-top: 10px
+	&-img
+		border-radius: 100%
+		width: 150px
+		height: 150px
+
+
+.wok-slider
+	padding-top: 20px
+	margin: 0 auto
+	width: 288px
+
+.slider-item-1
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/coctails.png') center center
+	-webkit-background-size: cover
+.slider-item-2
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/food.png') center center
+    -webkit-background-size: cover
+.slider-item-3
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/family.png') center center
+  -webkit-background-size: cover
+.slider-item-4
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/clothes.png') center center
+  -webkit-background-size: cover
+.slider-item__start
+  display: flex
+  justify-content: space-between
+.slider-item__middle
+  color: black
+  width: 136px
+  height: 202px
+  background: white
+  &-title
+    margin-top: 45px
+    text-align: center
+    font-weight: 500
+    font-size: 15px
+  &-subtitle
+
+    text-align: center
+    font-size: 13px
+    font-weight: 400
+
+  &-img
+    height: 50%
+.slider-title
+  font-size: 18px
+  font-weight: 400
+  margin-bottom: 10px
+.slider
+
+	&-items
+
+	&-item
+		background-color: white
+		width: 288px
+		height: 213px
+		&__title
+			margin-left: 13px
+			padding-top: 150px
+			padding-bottom: 5px
+			font-size: 18px
+			font-weight: 500
+			color: #ffffff
+
+
+
+		&__subtitle
+			margin-left: 13px
+			font-size: 14px
+			color: #ffffff
+			text-shadow: 0 1px 2px rgba(0,0,0,.3)
+			opacity: .64
+.rega-text
+  padding-top: 10px
+  margin-bottom: 10px
+  font-size: 18px
+.profile-level
+  margin-left: 20px
+  display: inline-block
+  color: rgb(255,64,129)
+  font-size: 18px
+  font-weight: 400
+.profile-options
+  margin-left: 40px
+  &-ex
+    margin-left: 5px
+.achiv-img
+  text-align: center
+.achiv-text
+  color: black
+
+/**
+ * Adaptive 320px
+ */
+@import "media"

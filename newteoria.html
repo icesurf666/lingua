@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Название сайта</title>
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+    <!--<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+<div class="lingua">
+    <!--<header class=" mdc-top-app-bar mdc-top-app-bar&#45;&#45;fixed">-->
+    <!--<div class="mdc-top-app-bar__row">-->
+    <!--<section class="mdc-top-app-bar__section mdc-top-app-bar__section&#45;&#45;align-start">-->
+    <!--<button class="material-icons mdc-top-app-bar__navigation-icon&#45;&#45;unbounded">menu</button><span class="mdc-top-app-bar__title">San Francisco, CA</span> </section>-->
+    <!--</div>-->
+    <!--</header>-->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Теория</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Lingua</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="newteoria.html">Теория</a>
+                <a class="mdl-navigation__link" href="newzadania.html">Задания</a>
+                <a class="mdl-navigation__link" href="slovar.html">Словарь</a>
+                <a class="mdl-navigation__link" href="lk.html">Личный кабинет</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content teoria">
+            <div class="page-content">
+                <div class="container">
+                    <div class="page-content__block">
+
+
+                        <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align">
+                            <i class="material-icons" style="font-size: 40px;">
+                                keyboard_arrow_down
+                            </i>Глаголы</button>
+
+                        <div id="Demo1" class="w3-hide">
+                            <a class="w3-button w3-block w3-left-align" href="present.html">Present Simple</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Present Continous</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Past Simple</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Future Simple</a>
+
+                        </div>
+                        <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align" style="margin-top: 15px;">
+                            <i class="material-icons" style="font-size: 40px;">
+                                keyboard_arrow_down
+                            </i>Существительные</button>
+                        <div id="Demo2" class="w3-hide">
+                            <a class="w3-button w3-block w3-left-align" href="#">«Неправильные» существительные</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Как образовать множественное число</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Существительный с артиклями</a>
+                        </div>
+                        <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-left-align" style="margin-top: 15px;">
+                            <i class="material-icons" style="font-size: 40px;">
+                                keyboard_arrow_down
+                            </i>Прилагательные</button>
+                        <div id="Demo3" class="w3-hide">
+                            <a class="w3-button w3-block w3-left-align" href="#">Порядок прилагательных</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Образование прилагательных</a>
+                            <a class="w3-button w3-block w3-left-align" href="#">Виды прилагательных</a>
+                        </div>
+
+                    </div>
+                    <script>
+                        function myFunction(id) {
+                            var x = document.getElementById(id);
+                            if (x.className.indexOf("w3-show") == -1) {
+                                x.className += " w3-show";
+                            } else {
+                                x.className = x.className.replace(" w3-show", "");
+                            }
+                        }
+                    </script>
+
+                    </div>
+                    </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js"></script>
+<!--<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>-->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+
+</html>
